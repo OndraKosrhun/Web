@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Horkovzdušné balóny</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            text-align: center;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 20px;
+            font-size: 24px;
+        }
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 15px;
+            padding: 20px;
+            max-width: 1200px;
+            margin: auto;
+        }
+        .gallery img {
+            width: 100%;
+            height: 250px;
+            object-fit: cover;
+            border-radius: 10px;
+            transition: transform 0.3s ease;
+        }
+        .gallery img:hover {
+            transform: scale(1.05);
+        }
+        footer {
+            background-color: #ff6b6b;
+            color: white;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <h1>Horkovzdušné balóny</h1>
+    <p>Objevte krásu létání v balónech</p>
+</header>
+
+<section class="gallery">
+    <img src="https://source.unsplash.com/600x400/?hot-air-balloon" alt="Balón 1">
+    <img src="https://source.unsplash.com/600x401/?hot-air-balloon" alt="Balón 2">
+    <img src="https://source.unsplash.com/600x402/?hot-air-balloon" alt="Balón 3">
+    <img src="https://source.unsplash.com/600x403/?hot-air-balloon" alt="Balón 4">
+    <img src="https://source.unsplash.com/600x404/?hot-air-balloon" alt="Balón 5">
+    <img src="https://source.unsplash.com/600x405/?hot-air-balloon" alt="Balón 6">
+</section>
+
+<footer>
+    &copy; 2025 FlyBalloon | Vše o létání v balónech
+</footer>
+
+</body>
+</html>
+
